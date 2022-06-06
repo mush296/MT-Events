@@ -19,6 +19,9 @@ Artist event details include:
 This is a single page application built using React, and styling was done with the help of Bootstrap. 
 The API was accessed using the Axios package.
  
+## Bonus Features
+1. Cache: Cookies used to persist the last searched artist upon browser refresh
+2. Deploy: Deployed using vercel framework on https://mt-events.vercel.app/
 
 ## How to run
 - Install node
