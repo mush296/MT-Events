@@ -1,5 +1,21 @@
+body {
+  background-color: red;
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+  
+  /* Full height */
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
+  /* background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -32,6 +48,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
